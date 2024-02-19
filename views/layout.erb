@@ -4,10 +4,21 @@
     <title>Sinatra RPS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+      .items{
+        list-style-type: none;
+      }
+    </style>
   </head>
 
   <body>
-
+    <div class="navbar">
+      <ul class = "items">
+        <li><a href="/rock"> Play Rock </a></li>
+        <li><a href="/paper"> Play Paper </a></li>
+        <li><a href="/scissors"> Play Scissors </a></li>
+      </ul>
+    </div>
     <%= yield %>
 
   </body>
